@@ -119,7 +119,7 @@ U_NL_END = re.compile(u(r'(?:{0})$').format(U_NEWLINE.pattern))
 
 try:
     import pkg_resources
-    __version__ = pkg_resources.require('path.py')[0].version
+    #__version__ = pkg_resources.require('path.py')[0].version
 except ImportError:
     __version__ = 'unknown'
 
